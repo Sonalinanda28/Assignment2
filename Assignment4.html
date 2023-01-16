@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Division</title>
+    <style>
+        .main {
+            background-size: cover;
+            text-align: center;
+            background-image: url("https://i.pinimg.com/564x/e8/f5/b2/e8f5b24da6859d7e51b54f9b44236a6b.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-size: 20px;
+            width: min-content;
+            height: 1000px;
+        }
+
+        div {
+            width: 50px;
+            height: 50px;
+            margin: fit-content;
+            border: solid 5px;
+            padding: 30px;
+        }
+
+        #box1 {
+            border-color: red cyan black gold;
+            background: linear-gradient(40deg, blue, red);
+            
+        }
+
+        #box2 {
+            margin-left: 120px;
+            border-color: red cyan black gold;
+            background: linear-gradient(45deg, ghostwhite, red);
+        }
+
+        #box3 {
+            margin-left: 240px;
+       
+            background: linear-gradient(45deg, magenta, seagreen);
+            border-color: red black gold blue;
+            color: black;
+        }
+
+        #box4 {
+            margin-left: 360px;
+            margin-top: -235px;
+            background: linear-gradient(45deg, red, blue);
+            border-color: maroon cyan magenta lightblue;
+            color: black;
+        }
+
+        #box5 {
+            margin-left: 480px;
+            margin-top: -235px;
+            background: linear-gradient(45deg, yellow, navy);
+            border-color: maroon yellow black navy;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div id="box1">
+            <marquee behavior="scroll" direction="right">Box1</marquee>
+        </div>
+        <div id="box2">
+            <marquee behavior="slide" direction="right">Box2</marquee>
+        </div>
+        <div id="box3">
+            <marquee behavior="alternate" direction="right">Box3</marquee>
+        </div>
+        <div id="box4">
+            <marquee behavior="alternate" direction="right">Box4</marquee>
+        </div>
+        <div id="box5">
+            <marquee behavior="alternate" direction="right">Box5</marquee>
+        </div>
+
+    </div>
+</body>
+
+
+
+</html>
