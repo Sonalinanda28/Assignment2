@@ -1,51 +1,92 @@
-.main {
+ .main {
     background-size: cover;
     text-align: center;
     background-image: url("https://i.pinimg.com/564x/e8/f5/b2/e8f5b24da6859d7e51b54f9b44236a6b.jpg");
     background-repeat: no-repeat;
     font-size: 20px;
-    width:450px;
-    height: 450px;
- 
-}
-div {
-    width: 30px;
-    height: 30px;
-  
-    border: solid 1px;
-    padding: 30px;
-}
+    width:fit-content;
+    height: fit-content;
+        }
 
-#box1 {
 
-    margin-left: 360px;
-    border-color: red cyan black gold;
-    background: linear-gradient(45deg, red, blue);
-    color: black;
-}
+         div{
+            width:60px;
+            height: 60px;
+            font-size: 18px;
+            text-align: center;
+            border: 2px solid black;
+        }
 
-#box2 {
-    margin-left: 270px;
-    border-color: red cyan black gold;
-    background: linear-gradient(45deg, red, blue);
-    color: black;
-}
+        #box1 {
+            margin-left: 638px;
+            background: linear-gradient(45deg, blue, red);
+            border-color: brown orange pink red ;
+        }
 
-#box3 {
-    margin-left:180px;
-    background: linear-gradient(45deg, yellow, lightgreen);
-    border-color: red black gold blue; 
-}
+        #box2 {
+            margin-left: 575px;
+            border-color: red cyan black gold;
+            background: linear-gradient(45deg, ghostwhite, red);
+    
+        }
 
-#box4 {
-    margin-left: 90px;
+        #box3 {
+            margin-left: 513px;
+            background: linear-gradient(45deg, magenta, seagreen);
+            border-color: red black gold blue;
+        
+        }
 
-    background: linear-gradient(45deg, red, blue);
-    border-color: maroon cyan magenta lightblue;
-}
+        #box4 {
+            margin-left:450px ;
+            background: linear-gradient(45deg, red, blue);
+            border-color: maroon cyan magenta lightblue;
+            
+        }
 
-#box5 {
-  
-    background: linear-gradient(45deg, maroon, yellow);
-    border-color: maroon yellow black navy;
-}
+        #box5 {
+            margin-left: 387px;
+            background: linear-gradient(45deg, yellow, navy);
+            border-color: maroon yellow black navy;
+            
+        }
+
+        #box6 {
+            margin-left: 324px;
+            background: linear-gradient(45deg, blue, magenta);
+            border-color: black maroon olivedrab orchid;
+        
+        }
+
+        #box7 {
+            margin-left:261px; 
+            background: linear-gradient(45deg, red, cyan);
+            border-color: royalblue maroon midnightblue mediumspringgreen;
+            
+        }
+
+        #box8 {
+            margin-left:198px ;
+            background: linear-gradient(45deg, navy, cyan);
+            border-color: black maroon olivedrab orchid;
+        
+        }
+
+        #box9 {
+            margin-left:135px; ;
+            background: linear-gradient(45deg, blue, magenta);
+            border-color: black maroon olivedrab orchid;
+        
+        }
+
+        #box10 {
+            margin-left: 70px;
+            background: linear-gradient(45deg, navy, olivedrab);
+            border-color: black maroon olivedrab orchid;
+        
+        }
+        #box11{
+            margin-left: 5px;
+            background: linear-gradient(45deg, rgb(202, 111, 20), rgb(60, 28, 206));
+            border-color: black rgb(169, 26, 26) rgb(63, 226, 125) rgb(46, 183, 199);
+        }
